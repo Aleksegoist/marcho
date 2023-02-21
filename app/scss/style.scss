@@ -17,8 +17,10 @@
     display: flex;
   }
 
-  &__list-item:not(:last-child) {
-    margin-right: 35px;
+  &__list-item {
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
   }
 
   &__list-link {
